@@ -19,8 +19,7 @@ for when Slack eventually breaks it with the next update. See LICENSE.
 
 ``document.addEventListener('DOMContentLoaded', function() {
  $.ajax({
-   url: 'https://cdn.rawgit.com/laCour/slack-night-mode/master/css/raw/black.css',
-   url: 'https://gist.githubusercontent.com/brdjns/cd9640fed1273b60e23626d8059da39d/raw/ef4a1997b8737a311f42158bc8f8ecbaa9734cd9/grey-slack.css'
+   url: 'https://raw.githubusercontent.com/brdjns/slack-grey/master/css/darkgrey-slack.css',
    success: function(css) {
      $("<style></style>").appendTo('head').html(css);
    }
