@@ -10,14 +10,15 @@ This theme has been tested and working with Slack 3.1.1 on Debian GNU/Linux 9.
 
 ## Licence
 This theme is Unlicensed. Under no conditions are warranties implied or expressed
-for when Slack eventually breaks it with the next update. See LICENSE.
+for when Slack eventually breaks it with the next update. See [LICENSE](https://raw.githubusercontent.com/brdjns/slack-grey/master/LICENSE)
 
 ## Installation
-* You may need sudo privileges for this.
+You may need sudo privileges for this.
 * Append the following to `ssb-interop.js`, which is found in the
 `/usr/lib/slack/resources/app.asar.unpacked/src/static/` directory:
 
-``document.addEventListener('DOMContentLoaded', function() {
+```javascript
+document.addEventListener('DOMContentLoaded', function() {
  $.ajax({
    url: 'https://raw.githubusercontent.com/brdjns/slack-grey/master/css/darkgrey-slack.css',
    success: function(css) {
@@ -25,5 +26,5 @@ for when Slack eventually breaks it with the next update. See LICENSE.
    }
  });
 });
-``
+```
 * Launch the Slack client to bask in night mode glory.
