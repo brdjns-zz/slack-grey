@@ -13,8 +13,8 @@ body { background: #272822; color: #75715E; }
 
 /* Regular body text */
 a { color: #597BAC; }
-a:link, a:visited, a:hover { color: #9159AC; }
-a:hover, a:active, a:focus { color: #AC595F; }
+a:link, a:visited, a:hover { color: #4b3bff; }
+a:hover, a:active, a:focus { color: #6459ff; }
 
 /* Horizontal rules */
 hr { border-bottom: 1px solid #424242; border-top: 1px solid #222; }
@@ -22,7 +22,7 @@ hr { border-bottom: 1px solid #424242; border-top: 1px solid #222; }
 /* Heading text */
 h1, h2, h3, h4 { color: #75715E; }
 h1 a { color: #597BAC; }
-h1 a:link, h1 a:visited { color: #9159AC; }
+h1 a:link, h1 a:visited { color: #4b3bff; }
 h1 a:hover, h1 a:active,
 
 /* Border elements */
